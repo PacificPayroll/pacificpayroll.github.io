@@ -124,3 +124,5 @@ Please star this project, share it on Social Media or consider supporting me on 
 
 - you always work on source branch. when changes are made and pushed to remote source, you run `npm run deploy` to build and deploy the code to main branch
   - check package.json to see the definition of `deploy` target
+
+- if you get **Segmentation fault: 11  gatsby build** , run `gatsby clean`
